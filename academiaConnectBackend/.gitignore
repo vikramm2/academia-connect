@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+.env
+.venv
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Docker
+*.pid
+*.sock
+.env
+
+# Node.js (If using frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE & OS-specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
